@@ -9,7 +9,7 @@ class User {
         this._email = email;
         this._password = password;
         this._photo = photo;
-        this._admin = admin
+        this._admin = admin;
         this._register = new Date();
 
     }
@@ -43,6 +43,6 @@ class User {
     get admin(){
         return this._admin;
     }
-    
 
 }
+
